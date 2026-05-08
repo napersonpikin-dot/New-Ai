@@ -1,0 +1,31 @@
+export const activityFeedEvents = [
+  { id: 1, type: 'purchase', user: 'Elena R.', userHandle: '@elena_r', avatar: 'E', country: 'Italy', robot: 'AlphaBot Pro', amount: 10000, time: 'Just now', timestamp: '2026-05-02T10:42:00Z' },
+  { id: 2, type: 'milestone', user: 'Alex Mercer', userHandle: '@alex_mercer', avatar: 'A', country: 'USA', milestone: '₦50,000 total earnings', time: '1 min ago', timestamp: '2026-05-02T10:41:00Z' },
+  { id: 3, type: 'deployment', user: 'Nina Petrova', userHandle: '@nina_p', avatar: 'N', country: 'Germany', robot: 'YieldMaster X', fleetSize: 10, time: '2 min ago', timestamp: '2026-05-02T10:40:00Z' },
+  { id: 4, type: 'withdrawal', user: 'David Chen', userHandle: '@dchen', avatar: 'D', country: 'Singapore', amount: 125000, method: 'USDT', time: '3 min ago', timestamp: '2026-05-02T10:39:00Z' },
+  { id: 5, type: 'purchase', user: 'James Kim', userHandle: '@james_k', avatar: 'J', country: 'South Korea', robot: 'CryptoMiner AI', amount: 50000, time: '4 min ago', timestamp: '2026-05-02T10:38:00Z' },
+  { id: 6, type: 'referral', user: 'Sarah Lee', userHandle: '@sarah_lee', avatar: 'S', country: 'Canada', referredUser: 'Amara Okafor', bonusAmount: 7200, time: '5 min ago', timestamp: '2026-05-02T10:37:00Z' },
+  { id: 7, type: 'milestone', user: 'Kenji Tanaka', userHandle: '@kenji_t', avatar: 'K', country: 'Japan', milestone: '30-day earning streak', time: '6 min ago', timestamp: '2026-05-02T10:36:00Z' },
+  { id: 8, type: 'deployment', user: 'Marcus Johnson', userHandle: '@marcus_j', avatar: 'M', country: 'UK', robot: 'CryptoMiner AI', fleetSize: 6, time: '7 min ago', timestamp: '2026-05-02T10:35:00Z' },
+  { id: 9, type: 'purchase', user: 'Priya Sharma', userHandle: '@priya_s', avatar: 'P', country: 'India', robot: 'AlphaBot Pro', amount: 10000, time: '8 min ago', timestamp: '2026-05-02T10:34:00Z' },
+  { id: 10, type: 'withdrawal', user: 'Carlos Mendez', userHandle: '@carlos_m', avatar: 'C', country: 'Spain', amount: 34000, method: 'Bank Transfer', time: '9 min ago', timestamp: '2026-05-02T10:33:00Z' },
+  { id: 11, type: 'purchase', user: 'Sophie Dubois', userHandle: '@sophie_d', avatar: 'S', country: 'France', robot: 'YieldMaster X', amount: 21000, time: '10 min ago', timestamp: '2026-05-02T10:32:00Z' },
+  { id: 12, type: 'referral', user: 'Michael Turner', userHandle: '@mike_t', avatar: 'M', country: 'USA', referredUser: 'David R.', bonusAmount: 3500, time: '11 min ago', timestamp: '2026-05-02T10:31:00Z' },
+  { id: 13, type: 'milestone', user: 'Lisa Chen', userHandle: '@lisa_c', avatar: 'L', country: 'Singapore', milestone: 'First ₦500,000 earned', time: '12 min ago', timestamp: '2026-05-02T10:30:00Z' },
+  { id: 14, type: 'deployment', user: 'Ryan O\'Brien', userHandle: '@ryan_o', avatar: 'R', country: 'Ireland', robot: 'AlphaBot Pro', fleetSize: 3, time: '13 min ago', timestamp: '2026-05-02T10:29:00Z' },
+  { id: 15, type: 'withdrawal', user: 'Yuki Nakamura', userHandle: '@yuki_n', avatar: 'Y', country: 'Japan', amount: 21000, method: 'PayPal', time: '14 min ago', timestamp: '2026-05-02T10:28:00Z' },
+  { id: 16, type: 'purchase', user: 'Tom Bradley', userHandle: '@tom_b', avatar: 'T', country: 'Australia', robot: 'YieldMaster X', amount: 21000, time: '15 min ago', timestamp: '2026-05-02T10:27:00Z' },
+  { id: 17, type: 'referral', user: 'Amara Okafor', userHandle: '@amara_o', avatar: 'A', country: 'Nigeria', referredUser: 'James L.', bonusAmount: 1800, time: '16 min ago', timestamp: '2026-05-02T10:26:00Z' },
+  { id: 18, type: 'milestone', user: 'Elena Rossi', userHandle: '@elena_r', avatar: 'E', country: 'Italy', milestone: '3 robots owned', time: '17 min ago', timestamp: '2026-05-02T10:25:00Z' },
+  { id: 19, type: 'deployment', user: 'Ahmed Hassan', userHandle: '@ahmed_h', avatar: 'A', country: 'UAE', robot: 'CryptoMiner AI', fleetSize: 4, time: '18 min ago', timestamp: '2026-05-02T10:24:00Z' },
+  { id: 20, type: 'purchase', user: 'Maria Gonzalez', userHandle: '@maria_g', avatar: 'M', country: 'Mexico', robot: 'AlphaBot Pro', amount: 10000, time: '19 min ago', timestamp: '2026-05-02T10:23:00Z' },
+];
+
+export const liveStats = {
+  onlineUsers: 2847,
+  robotsDeployedToday: 142,
+  totalEarnings24h: 48320000,
+  newPurchasesToday: 89,
+  withdrawalsProcessed: 156,
+  activeConversations: 312,
+};
